@@ -1,0 +1,311 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Use the title from a page's frontmatter if it has one -->
+    <title>David Levine - Development and More</title>
+    <link href="stylesheets/site.css" rel="stylesheet" />
+    <script src="javascripts/site.js"></script>
+    <script src="http://malsup.github.io/jquery.form.js"></script> <!-- for submitting ajaxForms quickly -->
+  </head>
+  <body class="black">
+    <!-- Button Dropdown -->
+
+
+<nav class="red">
+	<div class="nav-wrapper">
+        <a class="brand-logo hide-on-med-and-down">David Levine - Professional Portfolio</a>
+        <ul class="nav-mobile right">
+        	<li><a href="https://www.dropbox.com/s/4xnm2oosu4rib4h/Levine-David_UpdatedResume.docx?dl=0">Resume</a></li>
+        	<li><a href="#contact-form" class="modal-trigger">Contact</a></li> 
+        </ul>
+	</div>
+</nav>
+
+    <main>
+      <div class="container">
+
+	<div class="hide-on-large-only">
+		<div class="row">
+			<div class="col s12 center-align">
+				<h2>David Levine - Professional Portfolio</h2>
+			</div>
+		</div>
+	</div>
+	
+	
+	<div id="internships">
+	<div class="row">
+		<h3>Internships:</h3>
+	</div>
+
+		<div class="row">
+				<div class="work-box col m10 s12 red lighten-1 left">
+				<div class="work-content">
+					<h5>Stores Infrastructure Intern</h5>
+					<div class="divider"></div>
+					<h6>Business/Organization: Lbrands - Mast Global Technology</h6>
+					<h6>Date: May 2018 - August 2018 </h6>		
+					<div class="divider"></div>
+					<p>Description: While employed as an intern at Lbrands within Mast Global Technology, I was tasked with creating a store search feature within an internal MVC web application entitled the Retail Operations Center (ROC). At a high level, the store search feature allows a user to search for any Lbrands owned store and quickly get live information about the devices there. Then, depending on the user's access level, they can quickly interact with a wide variety of devices in the store: for instance, users can ping, restart, and shutdown registers with the click of a button. This feature sought to provide multiple benefits. These include, but are not limited to, allowing users to quickly gauge the health of a store’, easily interact with devices without needing to establish remote connections, and help automate tasks that the Stores Infrastructure team would need to respond to. To implement this system, I built web APIs to query information across a variety of SQL databases, retrieve Windows services using WMI, start/stop/restart Windows services using WMI, and execute remote commands. These web APIs would be accessed by a client's web browser through jQuery AJAX HTTP requests, where the HTTP response would be used to dynamically update the user’s browser. Upon finishing development, the store search feature was moved into a production environment, with multiple teams using this tool to help with troubleshooting/development.</p>
+					<div class="divider"></div>
+					<p>Languages Utilizied: HTML/CSS, JavaScript, C#</p>
+					<p>Technologies Utilizied: jQuery, ASP.NET MVC 4.0, Postman</p>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+				<div class="work-box col m10 s12 red lighten-1 right">
+				<div class="work-content">
+					<h5>Lasers and Robotics Laboratory Intern</h5>
+					<div class="divider"></div>
+					<h6>Business/Organization: University of Dayton Research Institute</h6>
+					<h6>Date: May 2017 - August 2017 </h6>		
+					<div class="divider"></div>
+					<p>Description: I leveraged my Java skills to develop a wide variety of applications for a KUKA collaborative robotics system. The most notable of all these applications was a ‘hand guiding’ program which would allow users to physically manipulate the arm with their hands, and then record those movements for playback. The user then would have the opportunity to replay those movements while firing a laser attached to the robotic arm’s flange. This project was led independently, so it was my responsibility to communicate expectations with my supervisor and clarify what he wanted developed. Additionally, I identified additional hardware needed to run digital outputs to our laser system, and obtained the appropriate purchase orders from outside vendors. Beyond software development, I spent time playing around with Microsoft Access and working on a database to track experiments with another intern. I also had the experience to frequently practice my presentation skills by explaining my work to visitors touring our lab, even getting the opportunity to present to Boeing representatives and the University of Dayton president.</p>
+					<div class="divider"></div>
+					<p>Languages Utilizied: Java</p>
+					<p>Technologies Utilizied: KUKA's robotics API, Sunrise Workbench (KUKA's development IDE)</p>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+				<div class="work-box col m10 s12 red lighten-1 left">
+				<div class="work-content">
+					<h5>Wright Scholar Summer Researcher</h5>
+					<div class="divider"></div>
+					<h6>Business/Organization: Air Force Research Laboratory (AFRL)</h6>
+					<h6>Date: May 2015 - July 2015 </h6>		
+					<div class="divider"></div>
+					<p>Description: As a Summer researcher at the Air Force Research Laboratory (AFRL), I had the opportunity to frequently run tests that would examine the air leakage of different combustion engines on a flow-bench. When I had free time, my supervisor advised me to learn VBA for Excel. Eventually, I was able to use my independent studies to create a User Defined Function (UDF) in Excel for a coworker; one which would calculate the effective area of orifices for a combustion engine. To get some of the appropriate equations for the effective area UDF, I utilized MATLAB to calculate the derivatives of some multi-variable functions.</p>
+					<div class="divider"></div>
+					<p>Languages Utilizied: VBA, MATLAB</p>
+					<p>Technologies Utilizied: Excel, MATLAB IDE</p>
+				</div>
+			</div>
+		</div>
+</div>
+	<div id="projects">
+	<div class="row">
+		<h3>Projects:</h3>
+	</div>
+
+		<div class="row">
+				<div class="work-box col m10 s12 red lighten-1 left">
+				<div class="work-content">
+					<h5>VR Game Development</h5>
+					<div class="divider"></div>
+					<h6>Date: May 2017 - August 2017</h6>		
+					<div class="divider"></div>
+					<p>Description: During my sophomore year of undergrad, I enrolled in Ohio State’s Second-Year Transformational Program (STEP), which culminated in a fellowship funded signature project. After writing a project proposal and budget, I was able to build a VR ready PC and purchase an HTC Vive, which I used to make Virtual Reality video games. In about three months, I made two VR games with virtually no prior game development experience: a three point basketball shoot game and a procedurally generated wave shooter with an interesting teleportation mechanic. Since this was a project done over the summer while I was working full-time at one of my internships, I made an effort to set weekly development goals to stay motivated, while simultaneously working towards overarching game development milestones. Additionally, I made a website for my project and made blog posts every 8-10 days to explain what I had developed, and what bugs I had worked through. To see my entire development process documented, along with the games themselves, visit the link provided below.</p>
+					<div class="divider"></div>
+					<p>Languages Utilizied: C#</p>
+					<p>Technologies Utilizied: Unity, SteamVR</p>
+					<div class="divider"></div>
+						<p>Development Blog: <a href="https://u.osu.edu/levinegamedevelopment/">https://u.osu.edu/levinegamedevelopment/</a></p>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+				<div class="work-box col m10 s12 red lighten-1 right">
+				<div class="work-content">
+					<h5>Portfolio Website</h5>
+					<div class="divider"></div>
+					<h6>Date: May 2018 - August 2018</h6>		
+					<div class="divider"></div>
+					<p>Description: Since my resume is running out of space to document all my internships and extracurriculars, I wanted to make a Portfolio website to give more details and insight into my professional and personal development endeavors. As a result, I rapidly developed this website with the intention of quickly learning a new front-end CSS framework (MaterializeCSS), and also to get a better grasp about utilizing grid systems in web development in general. To simplify development, I also used Middleman and embedded ruby to generate a lot of repeated HTML code (for instance, all internships, projects, and extracurriculars entries on this site are generated from JSON files).</p>
+					<div class="divider"></div>
+					<p>Languages Utilizied: HTML/CSS, SASS, JavaScript</p>
+					<p>Technologies Utilizied: jQuery, Git, GitKraken</p>
+					<div class="divider"></div>
+						<p>Github: <a href="https://github.com/levine1726/PortfolioWebsite">https://github.com/levine1726/PortfolioWebsite</a></p>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+				<div class="work-box col m10 s12 red lighten-1 left">
+				<div class="work-content">
+					<h5>Warren County Proerty Search Freelance Project</h5>
+					<div class="divider"></div>
+					<h6>Date: July 2017</h6>		
+					<div class="divider"></div>
+					<p>Description: In the Summer of 2017, one of my friends approached me about taking on a small project for his current employer, CJS Heating and Air. Knowing that I was studying computer science at Ohio State, he inquired if I had the ability to filter and grab data from many webpages containing information about properties in Warren County, OH. Ultimately, he wanted to distribute marking information to properties with certain heating systems that his employer could service. Despite having only a little experience with HTML and no webscraping experience, I told him to contact me formally and to give me more details about what he was looking for. After clarifying expectations, spending time exploring the website I was to parse, and researching webscraping solutions, I created a software solution which would take a file of CSV values containing property information, request the actual webpage corresponding to that page using Selenium Webdriver, and would then check the type of heating system and age of the house/building on the property. If the property ending up meeting the client’s criteria, I would write the property and contact information to a CSV file. Upon finishing scraping, I was able to return the client an excel spreadsheet of over 13,500 addresses for them to market to.</p>
+					<div class="divider"></div>
+					<p>Languages Utilizied: Java</p>
+					<p>Technologies Utilizied: Selenium Webdriver</p>
+					<div class="divider"></div>
+						<p>Github: <a href=""></a></p>
+				</div>
+			</div>
+		</div>
+</div>
+	<div id="extracurriculars">
+
+	<div class="row">
+		<h3>Extracirricular Involvements</h3>
+	</div>
+
+		<div class="row red lighten-1">
+		<div class="col m6 s12 ">
+			<div class="involvement-box">
+				<h5>Alpha Phi Omega</h5>
+				<h6>Years Involved: 3+ Years</h6>
+				<div class="divider"></div>
+				<p>Description: Alpha Phi Omega is a coed service fraternity that focuses heavily on three principles: service, fellowship, and leadership. Through this organization, I volunteer over 15 hours a semester while building friendships with a wide variety of other OSU students. In addition to volunteering, I also participate in fellowship events to better know my brothers, and attend leadership events which correspond to a variety of my interests.</p>
+			</div>
+		</div>
+		<div class="col m6 s12 ">
+			<div class="involvement-box">
+				<h5>Green Engineering Scholars</h5>
+				<h6>Years Involved: 2 Years</h6>
+				<div class="divider"></div>
+				<p>Description: Green Engineering Scholars (GES) is an OSU scholar program that I completed during my freshman and sophomore year. During this time, I participated in educational, social, and community service events with other GES students. These events focused on environmental sustainability, building relationships with other students, and volunteering.</p>
+			</div>
+		</div>
+		</div>
+		<div class="row red lighten-1">
+		<div class="col m6 s12 ">
+			<div class="involvement-box">
+				<h5>Upsilon Pi Epsilon</h5>
+				<h6>Years Involved: 1 Year</h6>
+				<div class="divider"></div>
+				<p>Description: Inducted into Upsilon Pi Epsilon, which is an international honor society dedicated to computing and information disciplines. Membership is only offered to those in the upper 35% of their class and those with a competitive GPA.</p>
+			</div>
+		</div>
+		</div>
+
+	<div class="row">
+		<h3>Leadership</h3>
+	</div>
+
+		<div class="row red lighten-1">
+		<div class="col m6 s12 ">
+			<div class="involvement-box">
+				<h5>Treasurer</h5>
+				<h6>Organization: Upsilon Pi Epsilon</h6>
+				<h6>Timeframe held: Fall 2018 - Spring 2019</h6>
+				<div class="divider"></div>
+				<p>Description: Responsible for collecting dues from newly inducted members, and writing a check to nationals for those members. Also assist with event planning with UPE President and Vice President.</p>
+			</div>
+		</div>
+		<div class="col m6 s12 ">
+			<div class="involvement-box">
+				<h5>Family Head</h5>
+				<h6>Organization: Alpha Phi Omega</h6>
+				<h6>Timeframe held: Fall 2017 Semester</h6>
+				<div class="divider"></div>
+				<p>Description: As a family head, I was responsible for planning two monthly events for my fraternity family to help foster a stronger community. I also led a family chapter, where I presented general information from Eboard and lead the group through brainstorming and painting a family shield.</p>
+			</div>
+		</div>
+		</div>
+	
+
+</div>
+	<div id="about-me">
+	<div class="row">
+		<h3>About Me</h3>
+	</div>
+	<div class="row red lighten-1">
+		<div class="col m4 s12">
+			<h4>Academics</h4>
+			<div class="divider"></div>
+		</div>
+		<div class="col m8 s12">
+			<ul>
+				<li>Senior at The Ohio State University</li>
+				<li>Studying Computer Science Engineering</li>
+				<li>Expected graduation date: Fall 2019</li>
+				<li>Cumulative GPA (as of Fall 2018): 3.716</li>
+			</ul>
+		</div>
+	</div>
+	<div class="row red lighten-1">
+		<div class="col m4 s12">
+			<h4>Career Interests</h4>
+			<div class="divider"></div>
+		</div>
+		<div class="col m8 s12">
+			<ul>
+				<li>Software Development</li>
+				<li>Machine Learning/AI</li>
+			</ul>
+		</div>
+	</div>
+	<div class="row red lighten-1">
+		<div class="col m4 s12">
+			<h4>Hobbies</h4>
+			<div class="divider"></div>
+		</div>
+		<div class="col m8 s12">
+			<ul>
+				<li>Running:
+					<ul>
+						<li>Long distance runner</li>
+						<li>Usually train for one full marathon a year</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+</div>
+            
+    </main>
+    <footer class="page-footer red">
+  <div class="container right">
+    <div class="row right">
+        <p class="col s12 white-text right-align">David Levine - 2018</p>
+    </div>
+  </div>
+</footer>
+
+    <!-- Modal Structure -->
+  <div id="contact-form" class="modal">
+    <div class="modal-content">
+  	<h6>Contact Me</h6>
+  	<p>
+      	(if you would rather send me an email through your default mail application, click 
+      	<a href="mailto:levine.1726@osu.edu">here</a>)
+  	</p>
+	<div class="divider"></div>
+	<form id="email-form" action="https://jumprock.co/mail/levineportfolio" method="post">
+		<input  type="text" name="trapit" value="" style="display:none" />
+		<div class="row">
+	        <div class="input-field col s12">
+				<label for="name">Name:</label>
+				<input id="name" type="text" name="name">
+	        </div>
+      	</div>
+      	<div class="row">
+	        <div class="input-field col s12">
+				<label for="email">Email:</label>
+	          	<input id="email" type="email" name="email">
+	        </div>
+      	</div>
+      	<div class="row">
+	        <div class="input-field col s12">
+				<label for="subject">Subject:</label>
+	          	<input id="subject" type="text" name="subject">
+	        </div>
+      	</div>
+      	<div class="row">
+	        <div class="input-field col s12">
+				<label for="message">Message:</label>
+	          	<textarea id="message" type="text" name="message" class="materialize-textarea"></textarea>
+	        </div>
+      	</div>
+		
+	</form>
+    </div>
+    <div class="modal-footer">
+      <p class="left">Powered by <a href="https://jumprock.co/">jumprock</a></p>
+      <a id="cancel" class="modal-close waves-effect waves-green btn-flat red white-text">Cancel</a>
+      <a id="submit" class="waves-effect waves-green btn-flat green white-text">Submit</a>
+
+    </div>
+  </div>
+  </body>
+</html>
